@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173124621BABA2DD00380030 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173124611BABA2DD00380030 /* AboutViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		173124641BABBE0300380030 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 173124631BABBE0300380030 /* BullsEye.html */; settings = {ASSET_TAGS = (); }; };
+		173124851BACF57C00380030 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 173124831BACF57C00380030 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		173124861BACF57C00380030 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 173124841BACF57C00380030 /* Default@2x.png */; settings = {ASSET_TAGS = (); }; };
 		179663621BA620DB00309A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179663611BA620DB00309A20 /* AppDelegate.swift */; };
 		179663641BA620DB00309A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179663631BA620DB00309A20 /* ViewController.swift */; };
 		179663671BA620DB00309A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179663651BA620DB00309A20 /* Main.storyboard */; };
 		179663691BA620DB00309A20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179663681BA620DB00309A20 /* Images.xcassets */; };
-		1796636C1BA620DB00309A20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1796636A1BA620DB00309A20 /* LaunchScreen.xib */; };
 		179663781BA620DB00309A20 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179663771BA620DB00309A20 /* BullsEyeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +29,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		173124611BABA2DD00380030 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		173124631BABBE0300380030 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		173124831BACF57C00380030 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		173124841BACF57C00380030 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1796635C1BA620DB00309A20 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179663601BA620DB00309A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		179663611BA620DB00309A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		179663631BA620DB00309A20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		179663661BA620DB00309A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		179663681BA620DB00309A20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1796636B1BA620DB00309A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		179663711BA620DB00309A20 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		179663761BA620DB00309A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		179663771BA620DB00309A20 /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
@@ -77,11 +83,14 @@
 		1796635E1BA620DB00309A20 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				173124831BACF57C00380030 /* Default-568h@2x.png */,
+				173124841BACF57C00380030 /* Default@2x.png */,
+				173124631BABBE0300380030 /* BullsEye.html */,
 				179663611BA620DB00309A20 /* AppDelegate.swift */,
 				179663631BA620DB00309A20 /* ViewController.swift */,
 				179663651BA620DB00309A20 /* Main.storyboard */,
+				173124611BABA2DD00380030 /* AboutViewController.swift */,
 				179663681BA620DB00309A20 /* Images.xcassets */,
-				1796636A1BA620DB00309A20 /* LaunchScreen.xib */,
 				1796635F1BA620DB00309A20 /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -156,7 +165,8 @@
 		179663541BA620DB00309A20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Sachin Virdy";
 				TargetAttributes = {
 					1796635B1BA620DB00309A20 = {
@@ -193,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				179663671BA620DB00309A20 /* Main.storyboard in Resources */,
-				1796636C1BA620DB00309A20 /* LaunchScreen.xib in Resources */,
+				173124851BACF57C00380030 /* Default-568h@2x.png in Resources */,
+				173124861BACF57C00380030 /* Default@2x.png in Resources */,
+				173124641BABBE0300380030 /* BullsEye.html in Resources */,
 				179663691BA620DB00309A20 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173124621BABA2DD00380030 /* AboutViewController.swift in Sources */,
 				179663641BA620DB00309A20 /* ViewController.swift in Sources */,
 				179663621BA620DB00309A20 /* AppDelegate.swift in Sources */,
 			);
@@ -244,14 +257,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1796636A1BA620DB00309A20 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1796636B1BA620DB00309A20 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -276,6 +281,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,6 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sachinvirdy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,6 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sachinvirdy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -370,6 +378,7 @@
 				);
 				INFOPLIST_FILE = BullsEyeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sachinvirdy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BullsEye.app/BullsEye";
 			};
@@ -385,6 +394,7 @@
 				);
 				INFOPLIST_FILE = BullsEyeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sachinvirdy.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BullsEye.app/BullsEye";
 			};
@@ -409,6 +419,7 @@
 				1796637D1BA620DB00309A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1796637E1BA620DB00309A20 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				179663801BA620DB00309A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
